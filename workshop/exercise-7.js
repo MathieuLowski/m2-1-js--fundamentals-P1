@@ -10,3 +10,12 @@
 // It's 11h. Time to train!
 // It's 12h. Time to train!
 // It's 13h. Time to eat!
+for(num=0; num <24; num++){
+    if (num>22 && num<6){
+        console.log ("It's "+num+"h. Time to sleep");
+    }
+    else if (num === 7 || num === 13 || num === 18){
+        console.log("It's "+num+"h. Time to eat!");
+    }
+    else console.log("It's "+num+"h. Time to train!");
+}
